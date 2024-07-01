@@ -1,8 +1,9 @@
-/* I have no idea how I did the fibonacci function. I actually did most of this myself, save for referencing a previously existing snippet of C code
- * to figure out how the term addition worked. However, I started to go above and beyond to overengineer it and eventually realized ints were too small to go
- * beyond the first 20-40 numbers in the series (I forgot how many.) I was playing with doubles until I wanted to rip my hair out, then changed the value back
- * to an integer and it just works, I tested it up to the 99th value and it's spitting out numbers larger than you'll ever need. Don't ask me how, I don't know.
- * I'm sure it's easy to explain, but I'll come back to this after my hair grows back. I also think it loses accuracy somewhere around 79.*/
+/* I have no idea how I did some of this. I did most of this myself, save for briefly referencing a previously existing snippet of C code
+ * to figure out how the term addition worked. However, I started to go above and beyond to overengineer it and eventually realized integers
+ * were too small to go beyond the first 20-40 numbers in the series (I forgot how many.) I was playing with doubles until I wanted to rip my 
+ * hair out, then changed the value back to an integer and it just works, I tested it up to the 99th value and it's spitting out numbers larger
+ * than you'll ever need. Don't ask me how, I don't know. I'm sure it's easy to explain, but I'll come back to this after my hair grows back.
+ * I also think it loses accuracy somewhere around 79.*/
 
 #include <stdio.h>
 #include <math.h>
